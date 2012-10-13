@@ -2,7 +2,7 @@
 "practice # 2"
 
 
-def simple(num): 
+def simple(num):  #нахождение простых делителей
     """Return the arr. In arr we have simple digits"""
     assert num > 0
     assert type(num) is not float 
@@ -38,7 +38,7 @@ def str_wrk(string):
         result += result[len(result) - 1]
     return result
 
-def gnom_sort(arr):
+def gnom_sort(arr):#сортировка гном
     """Returns the sorted array, GNOM SORT"""
     assert type(arr) is  not str 
     i = 0
